@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Building a AI-Powered Content Creation Platform",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -173,7 +173,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Frontend Developer Intern -Cooasis",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -200,18 +200,20 @@ export const workExperience = [
     thumbnail: "/exp4.svg",
   },
 ];
-
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Shahbaz-28", // GitHub link
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/yourusername", // Twitter link
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/shahbaz-khan28/", // LinkedIn link
   },
 ];
