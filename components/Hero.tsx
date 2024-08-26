@@ -4,7 +4,7 @@ import { Cover } from "@/components/ui/cover";
 
 const Hero = () => {
   return (
-    <div className="pb-2 pt-2 lg:mt-10">
+    <div className="pb-2 pt-2 ">
       <div className=" hidden lg:flex">
         <GridGlobe />
       </div>

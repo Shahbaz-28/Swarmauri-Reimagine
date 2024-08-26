@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import { Cover } from "@/components/ui/cover";
 
 
-const World = dynamic(() => import("./Globe").then((m) => m.World), {
+const World = dynamic(() => import("../ui/Globe").then((m) => m.World), {
   ssr: false,
 });
 
